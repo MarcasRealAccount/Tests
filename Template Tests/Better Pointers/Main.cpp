@@ -1,6 +1,5 @@
 #include <stdint.h>
 
-#include <memory>
 #include <map>
 
 struct SharedPointers {
