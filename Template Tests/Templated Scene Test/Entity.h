@@ -12,7 +12,7 @@ public:
 	template <typename T> inline constexpr std::vector<T*> GetChildren();
 	template <typename T, typename... Args> inline constexpr T* AddChild(Args... args);
 	template <typename T, typename... Args> inline constexpr T* InsertChild(uint32_t index, Args... args);
-
+	
 	template <typename T> inline constexpr T* GetComponent();
 	template <typename T> inline constexpr std::vector<T*> GetComponents();
 	template <typename T, typename... Args> inline constexpr T* AddComponent(Args... args);
